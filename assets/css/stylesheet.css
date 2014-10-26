@@ -1,0 +1,31 @@
+#app{
+	//outline: 1px solid black;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 0;
+}
+textarea,input, #drag-n-drop {
+	width: 50%;
+	margin-left: 25%;
+	margin-right:25%;
+	
+}
+
+textarea, input, #drag-n-drop, b {
+	margin-top: 1em;
+}
+textarea {
+	resize:none;
+	height: 6em;
+}
+#drag-n-drop {
+	height: 10em;
+	background: gray;
+}
+
+input[type="time"] {
+
+}

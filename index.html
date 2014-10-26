@@ -4,10 +4,22 @@
 	<meta charset="utf-8">
 	<title> UsefulPosting  - Сервис для постинга записей в ВК</title>
 	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/stylesheet.css">
 </head>
 <body>
 
-  <div id="app"></div>
+  <div id="app">
+  	<h1>Useful Posting</h1>
+			<form>
+				<textarea placeholder="описание"></textarea>
+				<input type="text" name="link" placeholder="ссылка">
+				<input type="text" name="tag" placeholder="тэги">
+				<div id="drag-n-drop"></div>
+				<input type="date" placeholder="дата" >
+				<input type="time" name="minute" placeholder="время">
+				<input type="submit" name="submit">
+			</form>
+  </div>
   
   <script src='assets/js/app.js'></script>
   <script src="assets/js/api.js"></script>
