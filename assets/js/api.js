@@ -14,14 +14,7 @@
 
 		apiUrl = 'https://oauth.vk.com/authorize?client_id=' + clientId + '&redirect_uri=' + redirectUri + '&scope=' + scope + '&display=' + display;
 		
-		apiWindow = window.open(apiUrl, "Авторизация", "width=300, height=300");
-		setInterval(checkLocation(apiWindow), 50);
-	}
-
-
-
-	function checkLocation(_window) {
-		console.log(_window.location);
+		window.location.href = apiUrl;
 	}
 
 }).call(this);
