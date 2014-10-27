@@ -1,28 +1,32 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<title> UsefulPosting  - Сервис для постинга записей в ВК</title>
 	<link rel="stylesheet" href="assets/css/normalize.css">
 	<link rel="stylesheet" href="assets/css/stylesheet.css">
+	<link rel="stylesheet" href="assets/css/buttons.css">
+	<link rel="stylesheet" href="assets/css/forms.css">
 </head>
 <body>
 
   <div id="app">
   	<h1>Useful Posting</h1>
 			<form>
-				<textarea placeholder="описание"></textarea>
-				<input type="text" name="link" placeholder="ссылка">
-				<input type="text" name="tag" placeholder="тэги">
+				<textarea  class='ya-input' placeholder="описание"></textarea>
+				<input class='ya-input' type="text" name="link" placeholder="ссылка">
+				<input class='ya-input' type="text" name="tag" placeholder="тэги">
 				<div id="drag-n-drop"></div>
-				<input type="date" placeholder="дата" >
-				<input type="time" name="minute" placeholder="время">
-				<input type="submit" name="submit">
+				<input class='ya-input' type="date" placeholder="дата" >
+				<input class='ya-input' type="time" name="minute" placeholder="время">
+				<a href="#" class=' btn ' ><span>  Отправить </span> </a>
 			</form>
   </div>
   
-  <script src='assets/js/app.js'></script>
-  <script src="assets/js/api.js"></script>
-  <script src="assets/js/main.js"></script>
+  <script src='assets/js/app/.js'></script>
+  <script src="assets/js/api/.js"></script>
+  <script src="assets/js/main/.js"></script>
 </body>
 </html>
+
+
