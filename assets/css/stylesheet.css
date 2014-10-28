@@ -1,34 +1,34 @@
 #app{
-	
-	margin-left: 25%;
-	margin-right: 25%;
+	width: 25%;
+	margin: auto;
 }
+
+
 h1 {
 	text-align: center;
 	margin-bottom: 0;
 }
-textarea,input, #drag-n-drop, .btn  {
-	width: 50%;
-	margin-left: 25%;
-	margin-right:25%;
+
+
+textarea, input, #drag-n-drop, .btn  {
+	width: 100%;
+	margin-top: 1em;
 	
 }
 
-textarea, input, #drag-n-drop, b, .btn {
-	margin-top: 1em;
-}
+
 textarea {
 	resize:none;
 	height: 6em;
 }
+
+
 #drag-n-drop {
 	height: 10em;
 	background: gray;
 }
 
-input[type="time"] {
 
-}
 .btn {
 
 	text-align: center;
