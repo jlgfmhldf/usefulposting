@@ -13,7 +13,6 @@ h1 {
 textarea, input, #drag-n-drop, .btn  {
 	width: 100%;
 	margin-top: 1em;
-	
 }
 
 
@@ -30,6 +29,5 @@ textarea.ya-input{
 
 
 .btn {
-
 	text-align: center;
 }
