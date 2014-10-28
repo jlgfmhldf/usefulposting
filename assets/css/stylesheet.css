@@ -17,8 +17,8 @@ textarea, input, #drag-n-drop, .btn  {
 }
 
 
-textarea {
-	resize:none;
+textarea.ya-input{
+	resize: vertical;
 	height: 6em;
 }
 
