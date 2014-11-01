@@ -23,8 +23,7 @@ textarea.ya-input{
 
 
 #my-awesome-dropzone {
-	height: 10em;
-	background: gray;
+	box-shadow: 0 0 6px rgba(0,0,0,.4);
 }
 
 
