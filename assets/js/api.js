@@ -8,7 +8,7 @@
 			token;
 		
 		clientId = 4605706;
-		scope = 'wall,photos,groups';
+		scope = 'wall,photos,offline';
 		redirectUri= "https://oauth.vk.com/blank.html";
 		display = 'popup';
 

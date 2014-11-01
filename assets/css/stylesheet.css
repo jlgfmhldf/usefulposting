@@ -1,5 +1,5 @@
 #app{
-	width: 25%;
+	width: 640px;
 	margin: auto;
 }
 
@@ -30,4 +30,10 @@ textarea.ya-input{
 
 .btn {
 	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+	#app {
+		width: 95%;
+	}
 }
