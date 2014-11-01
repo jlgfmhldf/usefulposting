@@ -11,22 +11,26 @@
 
 	app.init = function() {
 		if (!app.checkAuth()) {
-			api.auth();
-		}
-		else {
-			app.token = window.location.search.substr(6);
+			app.getToken();
 		}
 	}
 
 
 	// Проверка на авторизованность
 	app.checkAuth = function() {
-		if (window.location.search.substr(1,4) == 'code') {
-			return true;
-		}
-		else {
+		if (!window.token) {
 			return false;
 		}
+		else {
+			return true;
+		}
+	}
+
+	// Получение токена
+	app.getToken = function() {
+		var token;
+		token = prompt("Введите токен для доступа к API:");
+		window.token = token;
 	}
 
 }).call(this);
