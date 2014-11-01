@@ -1,5 +1,5 @@
 #app{
-	width: 25%;
+	width: 640px;
 	margin: auto;
 }
 
@@ -23,11 +23,16 @@ textarea.ya-input{
 
 
 #my-awesome-dropzone {
-	height: 10em;
-	background: gray;
+	box-shadow: 0 0 6px rgba(0,0,0,.4);
 }
 
 
 .btn {
 	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+	#app {
+		width: 95%;
+	}
 }
