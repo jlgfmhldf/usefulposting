@@ -1,11 +1,9 @@
 (function(){
 	"use strict";
 
-	var api, app;
-	api = {};
+	var app;
 	app = {};
 
-	window.api = api;
 	window.app = app;
 
 
