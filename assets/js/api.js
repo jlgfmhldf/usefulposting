@@ -8,11 +8,11 @@
 			token;
 		
 		clientId = 4605706;
-		scope = 'wall';
-		redirectUri= "http://jlgfmhldf.github.io/usefulposting";
+		scope = 'wall,photos,groups';
+		redirectUri= "https://oauth.vk.com/blank.html";
 		display = 'popup';
 
-		apiUrl = 'https://oauth.vk.com/authorize?client_id=' + clientId + '&redirect_uri=' + redirectUri + '&scope=' + scope + '&display=' + display;
+		apiUrl = 'https://oauth.vk.com/authorize?client_id=' + clientId + '&redirect_uri=' + redirectUri + '&scope=' + scope + '&display=' + display + "&response_type=token";
 		
 		window.location.href = apiUrl;
 	}

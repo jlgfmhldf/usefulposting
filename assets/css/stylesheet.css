@@ -10,7 +10,7 @@ h1 {
 }
 
 
-textarea, input, #drag-n-drop, .btn  {
+textarea, input, #drag-n-drop, .btn, #my-awesome-dropzone {
 	width: 100%;
 	margin-top: 1em;
 }
@@ -22,7 +22,7 @@ textarea.ya-input{
 }
 
 
-#drag-n-drop {
+#my-awesome-dropzone {
 	height: 10em;
 	background: gray;
 }
